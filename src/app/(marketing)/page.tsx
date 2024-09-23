@@ -14,6 +14,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Cover } from "@/components/ui/Cover";
 
+export async function generateStaticParams() {
+    const pages = ['main'];
+    return pages.map((page) => ({name: page}));
+}
+
 const HomePage = () => {
 
     const firstRow = reviews.slice(0, reviews.length / 2);
