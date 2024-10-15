@@ -42,7 +42,7 @@ export function BlurFadeDemo() {
             inView
             className={`rounded-lg ${works[idx].background} p-4`}
           >
-            <Link href={link} target="_blank" rel="noreferrer">
+            <Link href="" target="_blank" rel="noreferrer">
               <Image
                 height={10000}
                 width={10000}

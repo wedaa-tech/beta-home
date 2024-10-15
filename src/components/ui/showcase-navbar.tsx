@@ -30,7 +30,7 @@ xl:w-4/5
     
     "
     >
-      <Link href="/">
+      <Link href="">
       <Image
         src="/logo/logo.png"
         alt="WeDAA Logo"
@@ -50,13 +50,13 @@ xl:w-4/5
           >
             Showcase
           </Link>
-             <Link href="/" className="hover:text-blue-500">
+             <Link href="" className="hover:text-blue-500">
             Services
           </Link>
-          <Link href="/" className="hover:text-blue-500">
+          <Link href="" className="hover:text-blue-500">
         Process
           </Link>
-          <Link href="/" className="hover:text-blue-500">
+          <Link href="" className="hover:text-blue-500">
             Guarentees
           </Link>
   

@@ -22,7 +22,7 @@ const Footer = () => {
 
       <div className="flex md:justify-center gap-x-4 mt-10 text-gray-500">
       © 2024 WeDAA. All Rights Reserved.
-      <Link href="/" className="text-blue-500">
+      <Link href="" className="text-blue-500">
           Privacy Policy
         </Link>
       </div>

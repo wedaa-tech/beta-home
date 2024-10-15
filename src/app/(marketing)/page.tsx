@@ -307,7 +307,7 @@ const HomePage = () => {
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
                             Join the conversation on our GitHub organization and be part of the journey to enhance WeDAA's future.                            </p>
                             <Button variant="white" className="mt-6" asChild>
-                                <Link href="/sign-in">
+                                <Link href="">
                                     Let's Go
                                     <ArrowRight className="w-4 h-4 ml-2" />
                                 </Link>
@@ -339,7 +339,7 @@ const HomePage = () => {
                                 </form>
                                 <p className="text-xs text-muted-foreground">
                                     By subscribing you agree with our{" "}
-                                    <Link href="#">
+                                    <Link href="">
                                         Privacy Policy
                                     </Link>
                                 </p>

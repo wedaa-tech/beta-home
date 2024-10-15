@@ -23,22 +23,22 @@ const ActionButtons = () => {
             <SheetHeader>
               <SheetDescription>
                 <div className="flex flex-col space-y-4 items-start w-full  text-lg text-black mt-10">
-                  <Link href="/" className="">
+                  <Link href="" className="">
                     Sign In
                   </Link>
-                  <Link href="/" className="">
+                  <Link href="" className="">
                     Get Started
                   </Link>
-                  <Link href="/pricing" className=" ">
+                  <Link href="" className=" ">
                     Pricing
                   </Link>
-                  <Link href="/" className="">
+                  <Link href="" className="">
                     Features
                   </Link>
-                  <Link href="/contact" className="">
+                  <Link href="" className="">
                     Contact
                   </Link>
-                  <Link href="/" className="">
+                  <Link href="" className="">
                     About
                   </Link>
                 </div>

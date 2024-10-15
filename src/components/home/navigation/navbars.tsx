@@ -10,7 +10,7 @@ const Navbar = async () => {
             <Container reverse>
                 <div className="flex items-center justify-between h-full mx-auto md:max-w-screen-xl">
                     <div className="flex items-start">
-                        <Link href="/" className="flex items-center gap-2">
+                        <Link href="" className="flex items-center gap-2">
                             <span className="text-lg font-medium">
                                 WeDAA
                             </span>
@@ -18,17 +18,17 @@ const Navbar = async () => {
                     </div>
                     <nav className="hidden md:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
                         <ul className="flex items-center justify-center gap-8">
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Product</Link>
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Features</Link>
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Documentation</Link>
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Contact Us</Link>
+                            <Link href="" className="hover:text-foreground/80 text-sm">Product</Link>
+                            <Link href="" className="hover:text-foreground/80 text-sm">Features</Link>
+                            <Link href="" className="hover:text-foreground/80 text-sm">Documentation</Link>
+                            <Link href="" className="hover:text-foreground/80 text-sm">Contact Us</Link>
                         </ul>
                     </nav>
                     <div className="flex items-center gap-4">
-                                <Link href="/sign-in" className={buttonVariants({ size: "sm", variant: "ghost" })}>
+                                <Link href="" className={buttonVariants({ size: "sm", variant: "ghost" })}>
                                     Login
                                 </Link>
-                                <Link href="/sign-up" className={buttonVariants({ size: "lg", className: "hidden md:flex" })}>
+                                <Link href="" className={buttonVariants({ size: "lg", className: "hidden md:flex" })}>
                                     Start free trial
                                 </Link>
                     </div>

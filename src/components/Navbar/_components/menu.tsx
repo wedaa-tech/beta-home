@@ -120,7 +120,7 @@ export function NavigationMenuBar() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
+          <Link href="" legacyBehavior passHref>
           <NavigationMenuLink
   className={cn(
     navigationMenuTriggerStyle(),
@@ -133,7 +133,7 @@ export function NavigationMenuBar() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/pricing" legacyBehavior passHref>
+          <Link href="" legacyBehavior passHref>
             <div>
             <NavigationMenuLink
   className={cn(
